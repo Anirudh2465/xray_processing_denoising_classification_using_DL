@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories and images
+data/
+results/
+models/
+notebooks/
+*.png
+*.jpg
+*.jpeg
+*.pth
+*.tif
+*.tiff
