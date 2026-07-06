@@ -192,6 +192,7 @@ def evaluate_and_plot(model, dataloader, num_images=5):
         ax.axis('off')
         
     out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "results_2", "denoising_results.png")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     plt.tight_layout()
     plt.savefig(out_path)
     print(f"Saved evaluation results to {out_path}")
