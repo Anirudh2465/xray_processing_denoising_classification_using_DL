@@ -22,7 +22,7 @@ An advanced deep learning pipeline built for two primary clinical tasks:
 ## 📂 Repository Structure
 
 ```text
-xray_denoiser/
+xray_processing_denoising_classification_using_DL/
 ├── src/
 │   ├── data_download.py               # Fetches chest X-ray dataset from Kaggle
 │   ├── generate_artifacts.py          # Applies various noise models to images
@@ -50,8 +50,8 @@ xray_denoiser/
 Ensure you have Python 3.8+ installed. Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/Anirudh2465/xray_denoiser.git
-cd xray_denoiser
+git clone https://github.com/Anirudh2465/xray_processing_denoising_classification_using_DL.git
+cd xray_processing_denoising_classification_using_DL
 pip install torch torchvision opencv-python matplotlib numpy scikit-image kagglehub tqdm seaborn scikit-learn
 ```
 
